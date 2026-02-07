@@ -1,0 +1,125 @@
+/* GENERAL PAGE STYLING */
+body {
+   font-family: 'Playfair Display', serif;
+   background-color: #f7cce7; 
+   margin: 0; 
+   padding: 0; 
+   color: #333;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* HEADER + NAVIGATION */
+header {
+    background-image: url("head.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px;
+    text-align: center;
+
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 10px;
+    padding: 10px 14px; 
+    color: #e07ea6;
+    border: 2px solid #e07ea6 ;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav {
+    text-align: center;
+
+}
+
+
+/* SECTION HEADINGS */
+h2 {
+    color: #e07ea6;
+    border-bottom: 2px solid #e07ea6;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* FEATURED SECTION */
+.featured {
+    text-align: center;
+}
+
+.featured img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+}
+
+/* SERVICES */
+.service {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #e07ea6;
+}
+
+/* GALLERY */
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    box-shadow: 0px 3px 2px rgba(224, 126, 166, 0.6);
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 35px;
+
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #e07ea6;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #e07ea6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1668f;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #333;
+}
